@@ -5,6 +5,8 @@ import SearchBar from "./SearchBar";
 
 function MainContainer() {
 
+  // STATE VARIABLES
+
   const [stocks, setStocks] = useState([]);
   const [myStocks, setMyStocks] = useState([]);
   const [stockSort, setStockSort] = useState('');

@@ -3,7 +3,11 @@ import Stock from "./Stock";
 
 function PortfolioContainer({ myStocks, sellStock }) {
 
+  // UTILITY CODE
+
   const myStockArr = myStocks.map(stock => <Stock key={stock.ticker} stockInfo={stock} onStockClick={sellStock} />);
+
+  // JSX RETURN
 
   return (
     <div id="stock-portfolio">

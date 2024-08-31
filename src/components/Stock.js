@@ -1,9 +1,6 @@
 import React from "react";
 
 function Stock({ stockInfo, onStockClick }) {
-
-    // UTILITY CODE
-
   return (
     <div className="card" onClick={() => onStockClick(stockInfo)}>
       <div className="card-body">
